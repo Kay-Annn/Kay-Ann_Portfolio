@@ -1,29 +1,39 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import NavigationComponent from './components/navigation';
+import React , {useState} from 'react';
 import HeaderComponent from './components/header';
 import FooterComponent from './components/footer';
 import ProjectComponent from './components/projects';
 import AboutComponent from './components/about';
 import ContactFormComponent from './components/contact';
+import NavigationComponent from './components/navigation';
+
 
 function App() {
+  const [pageSelection, setPageSelection] = useState("Projects");
+
+  const displayPage = () => {
+    if (pageSelection === "About") {
+    return <AboutComponent/>}
+      if (pageSelection === "Projects") {
+      return <ProjectComponent/>}
+      if (pageSelection === "ContactMe") {
+      return <ContactFormComponent/>}
+      /* if (pageSelection === "Resume") {
+      return <Resume/>}
+      } */
+    }
+
   return (
     <div className="App">
-
-      {/* <NavigationComponent /> */}
-     
-      <HeaderComponent/>
-
-      <AboutComponent/>
-
-      <ProjectComponent/>
-
-      <ContactFormComponent/>
-    
-      <FooterComponent />
-      
+  <NavigationComponent 
+      setPageSelection={setPageSelection}
+      pageSelection={pageSelection}
+      />
+      {displayPage()}
+      <FooterComponent/>
     </div>
+
   );
 }
 
