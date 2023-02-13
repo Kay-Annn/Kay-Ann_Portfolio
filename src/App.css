@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+
 .App {
   background-image: url('../public/pinkportfoliobackgrnd.jpg');
   height: 500px;
@@ -62,7 +64,17 @@
 
 .card-img{
   width: 150px;
-  border-radius:50%;
+  border-radius:60%;
+  margin: 30px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 9px 4px #f378e0;
+  animation: glow 1.5s linear infinite alternate;
+}
+
+@keyframes glow{
+  to {
+    box-shadow: 0px 0px 30px 20px #d672bf;
+  }
 }
 
 .navbar{
@@ -147,3 +159,43 @@ textarea {
 .row{
   margin: auto; 
 }
+
+.footerItems{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+/* .aboutImgHeading{
+  display: flex;
+  flex-direction: row;
+} */
+
+.aboutHeading{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.aboutParagraph{
+  margin: 2%;
+  font-size: x-large;
+}
+
+/* .footer{
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 20%;
+  background-color: transparent;
+  color: white;
+  text-align: center;
+} */
