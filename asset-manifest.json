@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/%7BKay-Ann_Portfolio%7D/static/css/main.d494a7cb.css",
-    "main.js": "/%7BKay-Ann_Portfolio%7D/static/js/main.399ab515.js",
-    "static/media/pinkportfoliobackgrnd.jpg": "/%7BKay-Ann_Portfolio%7D/static/media/pinkportfoliobackgrnd.db2e1e833916f5ce4fbe.jpg",
-    "static/media/hospitaldb.png": "/%7BKay-Ann_Portfolio%7D/static/media/hospitaldb.6dd198b01ad8effc6e39.png",
-    "static/media/weatherAPI.png": "/%7BKay-Ann_Portfolio%7D/static/media/weatherAPI.6ae1945c4a63069cc635.png",
-    "static/media/portfoliopic.png": "/%7BKay-Ann_Portfolio%7D/static/media/portfoliopic.0eaca958440b1d1a889a.png",
-    "static/media/codingquiz.png": "/%7BKay-Ann_Portfolio%7D/static/media/codingquiz.1632c45d38cc19cd51da.png",
-    "static/media/workdayscheduler.png": "/%7BKay-Ann_Portfolio%7D/static/media/workdayscheduler.7bdbcb6c07afdd7230b4.png",
-    "static/media/passwordgenerator.png": "/%7BKay-Ann_Portfolio%7D/static/media/passwordgenerator.21b343b5c82c9aa3dfbe.png",
-    "static/media/techbolg.png": "/%7BKay-Ann_Portfolio%7D/static/media/techbolg.32bb7a0662b726da0769.png",
-    "index.html": "/%7BKay-Ann_Portfolio%7D/index.html",
-    "main.d494a7cb.css.map": "/%7BKay-Ann_Portfolio%7D/static/css/main.d494a7cb.css.map",
-    "main.399ab515.js.map": "/%7BKay-Ann_Portfolio%7D/static/js/main.399ab515.js.map"
+    "main.css": "./static/css/main.baa27b86.css",
+    "main.js": "./static/js/main.c8a0c708.js",
+    "static/media/pinkportfoliobackgrnd.jpg": "./static/media/pinkportfoliobackgrnd.db2e1e833916f5ce4fbe.jpg",
+    "static/media/hospitaldb.png": "./static/media/hospitaldb.6dd198b01ad8effc6e39.png",
+    "static/media/weatherAPI.png": "./static/media/weatherAPI.6ae1945c4a63069cc635.png",
+    "static/media/portfoliopic.png": "./static/media/portfoliopic.0eaca958440b1d1a889a.png",
+    "static/media/codingquiz.png": "./static/media/codingquiz.1632c45d38cc19cd51da.png",
+    "static/media/workdayscheduler.png": "./static/media/workdayscheduler.7bdbcb6c07afdd7230b4.png",
+    "static/media/passwordgenerator.png": "./static/media/passwordgenerator.21b343b5c82c9aa3dfbe.png",
+    "static/media/techbolg.png": "./static/media/techbolg.32bb7a0662b726da0769.png",
+    "index.html": "./index.html",
+    "main.baa27b86.css.map": "./static/css/main.baa27b86.css.map",
+    "main.c8a0c708.js.map": "./static/js/main.c8a0c708.js.map"
   },
   "entrypoints": [
-    "static/css/main.d494a7cb.css",
-    "static/js/main.399ab515.js"
+    "static/css/main.baa27b86.css",
+    "static/js/main.c8a0c708.js"
   ]
 }
