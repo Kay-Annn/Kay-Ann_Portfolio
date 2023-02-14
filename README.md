@@ -1,7 +1,4 @@
  # Kay-Ann's Portfolio
-Webpage to display a team's info
-
-## Description
 A single page react app that showcase my projects and a short info regarding myself. 
 
 ## Usage
