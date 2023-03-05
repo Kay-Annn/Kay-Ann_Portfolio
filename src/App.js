@@ -6,6 +6,7 @@ import ProjectComponent from './components/projects';
 import AboutComponent from './components/about';
 import ContactFormComponent from './components/contact';
 import NavigationComponent from './components/navigation';
+import Resume from './components/resume';
 
 
 function App() {
@@ -18,10 +19,9 @@ function App() {
       return <ProjectComponent/>}
       if (pageSelection === "ContactMe") {
       return <ContactFormComponent/>}
-      /* if (pageSelection === "Resume") {
+       if (pageSelection === "Resume") {
       return <Resume/>}
-      } */
-    }
+      } 
 
   return (
     <div>
@@ -34,9 +34,6 @@ function App() {
     </div>
     <FooterComponent/>
     </div>
-
-    
-
   );
 }
 
