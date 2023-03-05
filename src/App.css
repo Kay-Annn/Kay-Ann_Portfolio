@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
 
+
 .App {
   background-image: url('../public/pinkportfoliobackgrnd.jpg');
 
@@ -146,32 +147,48 @@ textarea {
 
 .projectContainer{
   text-align: center;
-  margin-bottom: 40px;
-  padding: 20px;
+ 
 }
 
-.projectImage{
+.projectHeading{
+  align-items: center;
+  font-weight: bolder;
+  font-size: x-large;
+  margin-top: 2rem;
+}
+
+.portfolioList{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+.card{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 48%;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+
+/* .projectImage{
   width: 100%;
   vertical-align: top;
   border-radius: 10px;
   margin-bottom: 25px;
-}
+} */
 
-.row{
-  margin: auto; 
-}
 
 .footerItems{
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
-
-}
-
-a{
-  text-decoration: none;
-  color: black;
+  
 }
 
 /* .aboutImgHeading{
@@ -183,6 +200,8 @@ a{
   display: flex;
   flex-direction: row;
   align-items: center;
+  font-weight: bolder;
+  font-size: x-large;
 }
 
 .aboutParagraph{
@@ -206,6 +225,22 @@ a{
 margin: 4rem;
 }
 
-.contactForm{
+.socialLinks{
+  text-decoration: none;
+  color: black;
 
 }
+
+.socialIcons{
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+  }
+
+.bulma_hero__1bjCM.bulma_is-primary__1jh74{
+    background-color: rgb(252, 159, 231) !important ;
+    color: #fff;
+}
+
+
+
