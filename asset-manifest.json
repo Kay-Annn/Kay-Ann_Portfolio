@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.5786b56e.css",
-    "main.js": "./static/js/main.dc3091ea.js",
+    "main.css": "./static/css/main.c8855764.css",
+    "main.js": "./static/js/main.eacf1a7c.js",
     "static/media/pinkportfoliobackgrnd.jpg": "./static/media/pinkportfoliobackgrnd.db2e1e833916f5ce4fbe.jpg",
     "static/media/hospitaldb.png": "./static/media/hospitaldb.6dd198b01ad8effc6e39.png",
     "static/media/weatherAPI.png": "./static/media/weatherAPI.6ae1945c4a63069cc635.png",
@@ -11,11 +11,11 @@
     "static/media/passwordgenerator.png": "./static/media/passwordgenerator.21b343b5c82c9aa3dfbe.png",
     "static/media/techbolg.png": "./static/media/techbolg.32bb7a0662b726da0769.png",
     "index.html": "./index.html",
-    "main.5786b56e.css.map": "./static/css/main.5786b56e.css.map",
-    "main.dc3091ea.js.map": "./static/js/main.dc3091ea.js.map"
+    "main.c8855764.css.map": "./static/css/main.c8855764.css.map",
+    "main.eacf1a7c.js.map": "./static/js/main.eacf1a7c.js.map"
   },
   "entrypoints": [
-    "static/css/main.5786b56e.css",
-    "static/js/main.dc3091ea.js"
+    "static/css/main.c8855764.css",
+    "static/js/main.eacf1a7c.js"
   ]
 }
