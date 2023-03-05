@@ -2,7 +2,7 @@
 
 .App {
   background-image: url('../public/pinkportfoliobackgrnd.jpg');
-  height: 500px;
+
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -14,6 +14,7 @@
 
 .navbar{
   display: flex;
+  height: 5rem;
 }
 
 .navElements{
@@ -41,13 +42,13 @@
 }
 
 .App-header {
-  /* min-height: 100vh; */
-  /* display: flex;
+  min-height: 100vh; 
+ display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center; */
-  /* font-size: calc(10px + 2vmin);
-  color: rgb(0, 0, 0); */
+  justify-content: center; 
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 0, 0);
 }
 
 .App-link {
@@ -101,10 +102,9 @@
 }
 
 .contactContainer{
-  margin: 0px auto;
+  margin: 2rem auto;
   width: 50%;
   text-align: center;
-  margin-bottom:20px;
 }
 
 form input {
@@ -132,8 +132,9 @@ textarea {
   border: none;
   border-radius: 10px;;
   padding: 10px;
-  width:100%;
+  width:50%;
   text-align: center;
+  margin: 2rem auto;
   margin-bottom: 200px;
 }
 
@@ -190,7 +191,7 @@ a{
 }
 
 /* .footer{
-  position: relative;
+  position: absolute;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -199,3 +200,12 @@ a{
   color: white;
   text-align: center;
 } */
+
+
+.contactHeader{
+margin: 4rem;
+}
+
+.contactForm{
+
+}

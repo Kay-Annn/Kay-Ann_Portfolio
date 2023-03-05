@@ -44,7 +44,7 @@ const ContactFormComponent = () => {
 
       <section className="contactContainer">
       <h1>Contact Me</h1>
-      <h3><i>Leave me a message, I would love to here from you!</i></h3>
+      <h3 className="contactHeader"><i>Leave me a message, I would love to here from you!</i></h3>
       <form className="contactForm" onSubmit={handleSubmit}>
         <div className="form-area">
           <label htmlFor="name">Name:</label>
